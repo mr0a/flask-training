@@ -1,1 +1,81 @@
-# flask-training
+# Flask-Training
+
+## Completed Topics
+- Day 1:
+    - Computer Network basics
+    - Client - Server Architecture
+- Day 2:
+    - Python Basics
+    - `pip` package manager
+- Day 3:
+    - Introduction to Flask
+    - Static Server in Python
+        - `python -m http.server`
+- Day 4:
+    - Virtual Environment in python
+        - `python -m venv .env`
+    - Installation of flask package
+        - `pip install flask`
+- Day 5:
+    - HTTP Request and Response
+        - Resource : [Mozilla docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages)
+    - Hello World in Flask
+    - Form data in Flask using request object
+        - `request.form.get()`
+- Day 6:
+    - Routes in flask
+        - `@app.route("/path")`
+    - Path parameters in flask
+        - `@app.route("/user/{user_id}")`
+- Day 7:
+    - GET vs POST request
+    - Rest API vs Restful API
+    - Methods in a Request
+        - `request.method`
+- Day 8:
+    - Rendering templates in flask
+    - Template syntax introduction
+        - `Using {} in html templates`
+- Day 9:
+    - Introduction to sqlite
+- Day 10:
+    - DBBrowser for sqlite
+- Day 11:
+    - CREATE TABLE
+    - DROP TABLE 
+    - Insert row
+    - Update row
+    - Delete row
+    - Where clause
+- Day 12:
+    - Using Sqlite3 in flask
+        - `import sqlite3`
+    - Threads in flask
+- Day 13:
+    - Authenticating user with sqlite3 database
+- Day 14:
+    - flask-sqlalchemy
+- Day 15:
+    - flask-login
+
+
+
+- Topics Pending
+    - Packages and modules
+    - Template syntax
+    - Jsonify
+        - `from flask import jsonify`
+    - Query parameter
+        - `request.args.get('language')`
+    - Json Body parsing (POST with raw json)
+        - `request.get_json()`
+
+- Tests
+    - Create a view to return date and time.
+    - A view to return path parameters.
+    - Return json of query parameters.
+    - Return json of form parameters.
+    - Todo list
+        - GET - List of all todos from db.
+        - POST - Save the todo in db.
+    - Form Application
